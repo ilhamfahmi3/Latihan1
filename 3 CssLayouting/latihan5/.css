@@ -1,0 +1,28 @@
+
+.dua,.tiga{
+    width:300px;
+    height: 400px;
+    font-size: 30px;
+    line-height: 400px;
+    text-align: center;
+
+}
+.satu{
+    background-color: red;
+    position: fixed;
+    height: 40px;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.dua{
+    background-color: skyblue;
+    position: absolute;
+    right:0px;
+    margin-top: 50px;
+}
+.tiga{
+    background-color: yellow;
+}

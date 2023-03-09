@@ -1,0 +1,17 @@
+.hello{
+    color: slategray;
+}
+.hello:hover{
+    color: rgb(255, 255, 255);
+    font-family: arial;
+    font-size: 30px;
+}
+.hello:active{
+    font-style: italic;
+}
+.hello:visited{
+    color: red;
+}
+body{
+    background-color: aquamarine;
+}

@@ -1,0 +1,22 @@
+ol#kota li{
+    color: red;
+}
+
+ol#kota li.kota1{
+    color: green;
+}
+
+ol#kota li.kota3{
+    color: pink;
+}
+
+ol#makanan li{
+    color: blue;
+}
+
+ol#makanan li.mkn1{
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: grey;
+}

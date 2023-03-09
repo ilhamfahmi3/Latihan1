@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style*/
+
+.menu{
+    box-sizing: border-box;
+    background-color: #eaeaea;
+    padding: 20px;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 5px;
+    color: #333;
+    background-color: lightblue;
+
+}
+
+a {
+    text-decoration:none;
+
+
+}
+
+.containersatu,.containerdua,.containertiga{
+    width: 800px;
+    border:grey solid 3px;
+    margin: 20 auto;
+}
+
+.containersatu{
+    overflow: auto;
+}
+
+.containerdua .clear{
+    clear: left
+}
+.satu,.dua,.tiga,.empat{
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 20px;
+    display:inline-block;
+    float: left;
+}
+.satu{
+    background-color: red;
+}
+.dua{
+    background-color: blue;
+}
+.tiga{
+    background-color: green;
+}
+.empat{
+    background-color: greenyellow;
+}
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+/*p*/
+p{
+    font: 18px/20px sans-serif;
+
+}
+
+
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }

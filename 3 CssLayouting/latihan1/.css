@@ -1,0 +1,27 @@
+.header{
+    color: white;
+    background-color: darkgray;
+    text-align: center;
+}
+.main{
+    background-color: darkgray;
+    height: 1000px;
+    color: white;
+}
+.main .head{
+    background-color: rgb(66, 65, 65);
+}
+.main .pgf1{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    display: inline-block;
+}
+.main .pgf2{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    display: inline-block;
+}
